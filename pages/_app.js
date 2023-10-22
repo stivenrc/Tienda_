@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/globals.css';
-import { Layout } from '../components';
+import { Layout } from '../components/Layout';
 import { Toaster } from 'react-hot-toast';
 import { StateContext } from '../context/StateContext';
 
-function MyApp({ Components, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <StateContext>
       <Layout>
